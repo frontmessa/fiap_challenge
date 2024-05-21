@@ -1,0 +1,134 @@
+.reparticao1, .reparticao2, .reparticao3, .reparticao4 {
+    width: 49%; 
+    height: 43vh; 
+    margin: 1px;
+    background-color: rgb(0, 0, 0);
+    position: relative; 
+    display: inline-block; 
+    vertical-align: top; 
+}
+
+.reparticao1 h2, .reparticao3 h1, .reparticao3 h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reparticao1 h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reparticao2 p {
+    color: white;
+    text-align: start;
+    margin-left: 15px;
+    margin-top: 7%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.reparticao3 img {
+    margin-left: 55px;
+}
+
+
+.reparticao1 iframe {
+    
+    margin-left: 15%;
+}
+
+
+.metade1, .metade2 {
+    width: 100%;
+    height: 50%;
+    background-color: rgb(0, 0, 0);
+    border: 5px solid rgb(255, 255, 255);
+}
+
+.botao-cinza, .botao-vermelho, .botao-amarelo, .botao-rosa-claro {
+    background-color: rgb(122, 122, 122);
+    color: black;
+    border: none;
+    padding: 10px 5px;
+    cursor: pointer;
+    margin: 15px 70px;
+    border-radius: 10px; 
+    width: 150px;
+    height: 70px; 
+    font-size: 20px; 
+    word-wrap: break-word;
+}
+
+.botao-vermelho {
+    position: absolute;
+    left: 1%;
+    bottom: 18%; 
+    background-color: red;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 2%;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 150px;
+    height: 70px; 
+}
+
+.botao-amarelo {
+    position: absolute;
+    left: 43%;
+    bottom: 18%; 
+    transform: translateX(-60%);
+    background-color: yellow;
+    color: black;
+    border: none;
+    padding: 1%;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 150px;
+    height: 70px; 
+}
+
+.botao-rosa-claro {
+    position: absolute;
+    right: 3%;
+    bottom: 18%;
+    background-color: #f08f9d;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 1%;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 150px;
+    height: 70px; 
+}
+
+.botao {
+    position: relative;
+    color: white;
+    background-color: gray;
+    font-size: 10px;
+    width: 99%;
+    height: 118px;
+}
+
+.botao h1 {
+    cursor: pointer;
+    width: 23%;
+    margin-left: 70%;
+}

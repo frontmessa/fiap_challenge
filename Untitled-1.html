@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela com 4 Repartições</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="reparticao1">
+            <h1>Camera 1</h1>
+            <iframe width="600" height="320" src="https://www.youtube.com/embed/73O-HpHrLT0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="reparticao2">
+            <p id="pista1">Pista 1 - Placa: <span id="placa1"></span></p>
+            <p id="pista2">Pista 2 - Placa: <span id="placa2"></span></p>
+            <p id="pista3">Pista 3 - Placa: <span id="placa3"></span></p>
+            <p id="pista4">Pista 4 - Placa: <span id="placa4"></span></p>
+        </div>                 
+        <div class="reparticao3">
+            <h1>Falha de funcionamento sensor 7 </h1>
+            <h2>Antena 3 e 4 - necessidade de manutenção preventiva</h2>
+            <img width="350" height="200" src="trafego_fluxo.png">
+            <img width="350" height="200" src="trafego_fluxo2.png">
+        </div>
+        <div class="reparticao4 dividido">
+            <div class="metade1">
+                <button class="botao-cinza">Cameras</button>
+                <button class="botao-cinza">Antenas</button>
+                <button class="botao-cinza">Sensores</button>
+                <button class="botao-cinza">Configuração de zoom</button>
+                <button class="botao-cinza">Registrar eventos</button>
+                <button class="botao-cinza">Configurações do sistema</button>
+            </div>
+            <div class="metade2">
+                <button class="botao-vermelho">Emergencia</button>
+                <button class="botao-amarelo">Alarme Sonoro</button>
+                <button class="botao-rosa-claro">Solicitar Assistência</button>
+            </div>
+        </div>
+    </div>
+    <button class="botao"><h1>USUARIO | ZOOM | DARK MODE | VOLTAR</h1></button>
+
+    <!-- Inclui o arquivo JavaScript externo -->
+    <script src="gerarPlaca.js"></script>
+</body>
+</html>
